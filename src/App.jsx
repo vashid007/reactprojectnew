@@ -7,13 +7,19 @@ import Auth from './pages/Auth'
 import Dashboard from './pages/Dashboard'
 import PageNotFound from './pages/PageNotFound'
 import Home from './pages/Home'
+import ProjectCard from './components/ProjectCard'
 
 
 function App() {
   return (
     <>
-      {/* <Header />
-      <Footer /> */}
+      <Header />
+
+
+
+      <ProjectCard />
+
+      <Footer />
 
 
 
