@@ -16,10 +16,10 @@ function App() {
       <Header />
 
 
+      
+      {/* <ProjectCard /> */}
 
-      <ProjectCard />
-
-      <Footer />
+      
 
 
 
@@ -34,7 +34,7 @@ function App() {
       </Routes>
       
 
-      
+      <Footer />
 
     </>
   )

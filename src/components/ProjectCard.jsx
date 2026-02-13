@@ -16,7 +16,7 @@ function ProjectCard() {
 
   return (
     <>
-      <Card style={{ width: "40%" }}>
+      <Card style={{ width: "100%" }}>
         <Card.Img
           onClick={handleShow}
           cursor-pointer
