@@ -1,11 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Auth() {
   return (
     <>
       <div className="loginpage bg-primary py-4 py-md-5">
         <div className="container">
-          <h3 className="mb-5 text-lite">Back to home</h3>
+          <h3 className="mb-5 text-light">
+            <Link to="/" className="text-light text-decoration-none">
+              Back to home
+            </Link>
+          </h3>
           <div className="row m-2 p-4 bg-white p-3 p-md-5 g-5 align-items-center rounded-4">
             <div className="col-12 col-md-5 d-flex justify-content-center align-items-center">
               <img

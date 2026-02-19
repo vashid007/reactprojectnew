@@ -5,6 +5,7 @@ import { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faSquareGithub, faSquareLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { Link } from "react-router-dom";
 
 
 
@@ -53,8 +54,12 @@ function ProjectCard() {
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <FontAwesomeIcon className="fa-2x" icon={faSquareGithub} />
+          <a href="https://github.com/vashid007" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon className="fa-2x" icon={faSquareGithub} />
+          </a>
+          <a href="https://www.linkedin.com/in/abdul-vashid/" target="_blank" rel="noreferrer">
           <FontAwesomeIcon className="fa-2x" icon={faSquareLinkedin} />
+          </a>
         </Modal.Footer>
       </Modal>
     </>
