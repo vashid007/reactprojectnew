@@ -30,9 +30,20 @@ function Allprojects() {
           </div> */}
         </div>
 
-        <div>
-          
-        </div>
+        <div className="d-flex flex-column align-items-center text-center">
+  <img className="img-fluid w-50 h-50 mb-3 mt-5" 
+    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fanimation%2F2023%2F06%2F13%2F15%2F12%2F15-12-30-710_512.gif&f=1&nofb=1&ipt=7bc7533e99279bc33abdab9dc63ce7c1adba42683b288631e6140363772568fd"
+    alt=""
+  />
+
+  <div className="d-flex align-items-center gap-2">
+    <button type="submit" className="btn btn-secondary">
+      Log In
+    </button>
+    <h5 className="mb-0">To view all projects</h5>
+  </div>
+</div>
+
 
       </div>
     </div>
