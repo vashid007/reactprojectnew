@@ -8,6 +8,10 @@ import Dashboard from './pages/Dashboard'
 import PageNotFound from './pages/PageNotFound'
 import Home from './pages/Home'
 import ProjectCard from './components/ProjectCard'
+import UserProfile from './components/UserProfile'
+import AddProject from './components/AddProject'
+import EditProject from './components/EditProject'
+import UserProjects from './components/UserProjects'
 
 
 function App() {
@@ -21,8 +25,8 @@ function App() {
 
       
 
-      <PageNotFound />
-
+      {/* <PageNotFound /> */}
+      
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -33,7 +37,13 @@ function App() {
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       
+      {/* <UserProfile /> */}
 
+      {/* < AddProject /> */}
+
+      {/* <EditProject /> */}
+
+      < UserProjects />
       <Footer />
 
     </>
