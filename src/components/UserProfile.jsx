@@ -14,14 +14,22 @@ function UserProfile() {
         <div className="profile-card">
           <div className="profile-header d-flex justify-content-between" >
             <h1 className="profile-name">Abdul Vashid</h1>
-            <div>
-              <button className="btn btn-primary px-3 py-2" onClick={() => setOpen(!open)}
-          aria-controls="example-collapse-text"
-          aria-expanded={open}>
+            
+              <button
+                type="button"
+                className="btn btn-primary px-3 py-2"
+                onClick={(event) => {
+                  event.preventDefault();
+                  event.stopPropagation();
+                  setOpen((prev) => !prev);
+                }}
+                aria-controls="example-collapse-text"
+                aria-expanded={open}
+              >
                 { open?<FontAwesomeIcon icon={faArrowUp} />
                 :<FontAwesomeIcon icon={faArrowDown} />}
               </button>
-            </div>
+            
           </div>
           <Collapse in={open}>
             <div className="profile-details d-flex flex-column justify-content-center align-items-center" id="example-collapse-text">

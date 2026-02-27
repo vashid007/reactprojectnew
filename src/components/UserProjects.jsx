@@ -7,7 +7,7 @@ import React from "react";
 function UserProjects() {
   return (
     <>
-      <div className="row bg-primary p-3">
+      <div className="row bg-primary p-3 mb-2">
         <div className="col-12 col-md-9">
           <h2>Travel website</h2>
         </div>
